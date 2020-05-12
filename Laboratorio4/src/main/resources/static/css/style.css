@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url('https://fonts.googleapis.com/css?family=Roboto');
+  font-display: swap;
+}
+
+.navbar-inverse {
+    background-color: #31708f;
+    border-color: #317396;
+}
+
+.navbar {
+    border-radius: 0 !important;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+input{
+	margin-bottom:5px;
+}
+
+.jumbotron h3{
+	color: #175aa1;
+	display: block;
+	font-size: 25px;
+	margin-top: -35px;
+	border-bottom: 1px #ddd solid;
+	padding-bottom: 5px;
+}
+.jumbotron label{
+	font-weight: normal;
+	font-size: 14px;
+}
+.error{
+	color: #E81505;
+    background-color: #f3dfdf;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+input[type=radio]{
+	width: 18px;
+	height: 18px;
+	margin: 0;
+	vertical-align: middle;
+}
